@@ -1,0 +1,39 @@
+*{
+    margin:0;
+}
+
+.flex-container{
+    margin: 20px;
+    display: flex;
+    height: 200px;
+    border-color: black;
+    border-style:solid;
+}
+
+.left{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    width: 3%;
+    /*border-style: dotted;*/
+     background-color: blueviolet;    
+}
+
+.center{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    background-color: green;
+}
+
+.right{
+    margin-left: 5%;
+    margin-top: 10px;
+    /*border-style: dotted;*/
+    border-radius: 50%;
+    width: 12%;
+    height: 89%;
+    background-color: skyblue;
+}
+
