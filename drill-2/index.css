@@ -8,6 +8,10 @@
     height: 200px;
     border-color: black;
     border-style:solid;
+    border-width: 5px;
+}
+.margin{
+    margin:30px;
 }
 
 .left{
@@ -17,6 +21,9 @@
     width: 3%;
     /*border-style: dotted;*/
      background-color: blueviolet;    
+}
+#margin{
+    padding: 30px;
 }
 
 .center{
@@ -35,5 +42,13 @@
     width: 12%;
     height: 89%;
     background-color: skyblue;
+}
+.middle{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 95%;
+    box-shadow:10px 10px 6px black;
+    background-color: blanchedalmond; 
 }
 
