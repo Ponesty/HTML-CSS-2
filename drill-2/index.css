@@ -22,7 +22,7 @@
     /*border-style: dotted;*/
      background-color: blueviolet;    
 }
-#margin{
+#padding{
     padding: 30px;
 }
 
@@ -50,5 +50,25 @@
     width: 95%;
     box-shadow:10px 10px 6px black;
     background-color: blanchedalmond; 
+}
+
+#bottomBlock{
+    border-style:inset;
+    margin-left: 32%;
+    margin-bottom: 10%;
+    width: 30%;
+    height: 250px;
+    box-shadow: 3px 3px 6px gray;
+}
+.topText{
+    margin-top: 90px;
+    font-size: 30px;
+    font-family:serif;
+    text-align: center;
+}
+.bottomText{
+    margin-top: 1pt;
+    font-size: 30px;
+    text-align: center; 
 }
 
